@@ -1,0 +1,34 @@
+{
+	"name": "speedy-spec/spec",
+	"description": "PHP Spec testing library",
+	"keywords": ["test", "spec", "bdd"],
+	"homepage": "http://www.speedyspec.com",
+	"minimum-stability": "stable",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Jacob Santos",
+			"email": "donotcontact@jacobsantos.com",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/SpeedySpec/pSpec/issues",
+		"source": "https://github.com/SpeedySpec/pSpec"
+	},
+	"require": {
+		"php": ">=5.4"
+	},
+	"require-dev": {
+		"codeclimate/php-test-reporter": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"SpeedySpec\\Spec\\": "src/",
+			"SpeedySpec\\Test\\Spec\\": "tests/"
+		},
+		"files": [
+			"src/functions.php"
+		]
+	}
+}
