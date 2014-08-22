@@ -1,0 +1,11 @@
+language: php
+php:
+  - hhvm
+  - 5.4
+  - 5.5
+install: composer install --dev --prefer-source -n
+after_script:
+  - vendor/bin/test-reporter
+addons:
+  code_climate:
+    repo_token: 45164477b764841a901e5328094ebe8341e02fc26ed69bcdbc4f9e90d5e46f4d 
