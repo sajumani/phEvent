@@ -1,7 +1,7 @@
 {
-	"name": "speedy-spec/spec",
-	"description": "PHP Spec testing library",
-	"keywords": ["test", "spec", "bdd"],
+	"name": "speedy-spec/event",
+	"description": "PHP Event library",
+	"keywords": ["event", "functional", "reactive"],
 	"homepage": "http://www.speedyspec.com",
 	"minimum-stability": "stable",
 	"license": "MIT",
@@ -13,8 +13,8 @@
 		}
 	],
 	"support": {
-		"issues": "https://github.com/SpeedySpec/pSpec/issues",
-		"source": "https://github.com/SpeedySpec/pSpec"
+		"issues": "https://github.com/SpeedySpec/phEvent/issues",
+		"source": "https://github.com/SpeedySpec/phEvent"
 	},
 	"require": {
 		"php": ">=5.4"
@@ -24,8 +24,8 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"SpeedySpec\\Spec\\": "src/",
-			"SpeedySpec\\Test\\Spec\\": "tests/"
+			"SpeedySpec\\Event\\": "src/",
+			"SpeedySpec\\Test\\Event\\": "tests/"
 		},
 		"files": [
 			"src/functions.php"
