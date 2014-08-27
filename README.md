@@ -2,11 +2,7 @@
 
 Functional Reactive Programming library in PHP.
 
-Signals are streams that accept any data to be combined using the functional methods.
-
-Need to create tests. Going to attempt to match bacon.js along with the RxJava and iOS reactive library.
-
-The goal is to implement a more modern functional reactive library.
+The basic functionality is to take a value or event and send the value to observers. This observers are composable.
 
 
 # Sources
