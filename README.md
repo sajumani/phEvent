@@ -4,6 +4,9 @@ Functional Reactive Programming library in PHP.
 
 The basic functionality is to take a value or event and send the value to observers. This observers are composable.
 
+# Behaviours and Events
+
+Behaviours are events to set up.
 
 # Sources
 
