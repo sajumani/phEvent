@@ -7,6 +7,6 @@
 namespace SpeedySpec\Event;
 
 
-class Stream {
+class Value {
 	
 }
